@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --main-bg-color: rgb(255, 0, 35);
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+#menu{
+    float:right;
+    height: 100%;
+    width: 50vw;
+    position: absolute;
+    top:2em;
+    right:2em;
+
+}
+#dailyMenuEn{
+    display: none;
+    background: rgba(255, 242, 173, 0.7);
+    height:95vh;
+    padding:.5em;
+    border-radius: 5%;
+    border:1px dashed var(--main-bg-color);
+    overflow: auto;
+}
+#dailyMenuFi{
+    background: rgba(255, 242, 173, 0.7);
+    height:95vh;
+    padding:.5em;
+    border-radius: 5%;
+    border:1px dashed var(--main-bg-color);
+    //background-color: #fff2ad;
+    overflow: auto;
+
+}
+#menuListEn{
+    margin-left:1.5em;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#menuListFi{
+    margin-left: 1.5em;
+    /*font-size: 1.5625rem;*/
+    font-size: 2rem;
+    font-weight: bold;
+}
+.listItemsFi{
+    list-style-type: none;
+    margin: .8em;
+}
+.listItemsEn{
+    list-style-type: none;
+    margin: .8em;
+}
+.menuHeader{
+    padding: .8em;
+    font-size:2.2rem ;
+}
+
