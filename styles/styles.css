@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#kello {
+    height: 5%;
+    font-size: 3.5rem;
+    color:wheat;
+    background-color: darkblue;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+
+
+.hsldata1 {
+    height: vh;
+    width: 50%;
+    margin: 0.4rem;
+    background-color: darkblue;
+    color: wheat;
+} 
+
+.hsldata2 {
+    height: vh;
+    width: 50%;
+    margin: 0.4rem;
+    background-color: darkblue;
+    color: wheat;
+
+}
+
+li {
+    font-size: 3rem;
+    padding: 0.8rem;
+    list-style: none;
+    max-height: 10%;
+}
+
+li:nth-child(odd) {
+    background-color: blue;
+}
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+
+}
